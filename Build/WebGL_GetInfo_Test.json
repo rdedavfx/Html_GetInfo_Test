@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Bee_Picture",
+"productVersion": "0.1",
+"dataUrl": "WebGL_GetInfo_Test.data.unityweb",
+"wasmCodeUrl": "WebGL_GetInfo_Test.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebGL_GetInfo_Test.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.16f1"
+}
