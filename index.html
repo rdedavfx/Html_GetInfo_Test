@@ -10,7 +10,13 @@
 
       function Html_Info()
       {
-        gameInstance.SendMessage("WebGL_GetInfo_Test","GetInfo","Test");
+        gameInstance.SendMessage("WebGL_GetInfo_Test","GetInfo","GetInfo_Test");
+      }
+
+      function Change_Screen(W,H)
+      {
+        document.getElementById("unityContainer").style.width = W + "px";
+        document.getElementById("unityContainer").style.height = H + "px";
       }
     </script>
   </head>
