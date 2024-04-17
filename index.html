@@ -6,12 +6,7 @@
     <title>Unity WebGL Player | Bee_Picture</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json");
-
-      function Html_Info()
-      {
-        gameInstance.SendMessage("WebGL_GetInfo_Test","GetInfo","Test");
-      }
+      UnityLoader.instantiate("unityContainer", "Build/WebGL_GetInfo_Test.json");
     </script>
   </head>
   <body>
